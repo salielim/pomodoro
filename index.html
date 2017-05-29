@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <script src="https://use.fontawesome.com/585a33469d.js"></script>
+
+<div class="container">
+  <h1>Pomodoro</h1>
+  <div class="row">
+    <button id="work"><b>Work (25 min)</b></button>
+    <button id="break"><b>Break (5 min)</b></button>
+  </div>
+
+  <div class="row">
+    <button id="work-add">+ 5 min</button>
+    <button id="work-minus">- 5 min</button>  
+    <button id="break-add">+ 1 min</button>
+    <button id="break-minus">- 1 min</button>
+  </div>
+
+  <span id="work-break">
+    Work&nbsp;<i class='fa fa-rocket' aria-hidden='true'></i>
+  </span>
+
+  <div class="counter">
+    <span id="countdown"></span>
+  </div>
+
+  <div class="counter">
+    <div class="icon">
+      <i id="start" class="fa fa-play" aria-hidden="true"></i>
+    </div>
+    <div class="icon">
+      <i id="reset" class="fa fa-refresh" aria-hidden="true"></i>
+    </div>
+  </div>
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
